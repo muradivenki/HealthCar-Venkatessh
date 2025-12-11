@@ -1,16 +1,50 @@
-# React + Vite
+# HealthCare Scheduler - Hackathon Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features Implemented
 
-Currently, two official plugins are available:
+- User login system
+- Staff management dashboard
+  - Add, Delete, Edit (Assign Shift) functionality
+  - Search staff by name, role, or ID
+- Shift assignment modal for staff with dropdown of shifts (Morning, Afternoon, Night)
+- Attendance management
+  - Mark Attendance for staff
+  - Apply Leave with leave type, date, and remarks
+- Dynamic UI updates without page reload
+- Responsive and interactive tables for staff
+- Modals for Assign Shift, Add/Edit Staff, and Leave Management
+- Logout functionality across all pages (except login)
+- Fully styled components with consistent header/footer design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack Used
 
-## React Compiler
+- **Frontend:** React, React Router v6, JSX
+- **State Management:** useState, useEffect, useLocation, useNavigate
+- **Styling:** CSS, custom responsive layout
+- **Version Control:** Git, GitHub
+- **Build Tool:** Vite
+- **Other Libraries:** None (vanilla React + CSS)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Next Steps / Improvements
 
-## Expanding the ESLint configuration
+- Push attendance and leave data to backend DB
+- Add authentication and session management
+- Enhance table with filtering, sorting, and pagination
+- Add notifications for shift assignments and leave approvals
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Summarization**
+Built a React-based HealthCare Scheduler for staff management.
+
+Implemented dashboard with add/edit/delete staff and search functionality.
+
+Added shift assignment modal with dynamic updates and validations.
+
+Created attendance and leave management page with dropdowns and date selection.
+
+Implemented logout button visible across all pages without breaking header/footer design.
+
+Applied modern CSS styling for header, footer, buttons, and modals.
+
+Used React Router v6 for page navigation and passing data between components.
+
+Fully functional frontend with responsive layout, ready for backend integration.
