@@ -1,5 +1,7 @@
 # HealthCare Scheduler - Hackathon Project
 
+Username & Password is admin
+
 ## Features Implemented
 
 - User login system
