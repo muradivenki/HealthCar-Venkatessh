@@ -1,0 +1,48 @@
+.attendance-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.attendance-action,
+.leave-form {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.leave-form select,
+.leave-form input,
+.leave-form textarea {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.attendance-btn {
+  background: #10b981;
+  color: #fff;
+}
+
+.leave-btn {
+  background: #f59e0b;
+  color: #fff;
+}
+
+.back-btn {
+  background: #6b7280;
+  color: #fff;
+  margin-top: 20px;
+}
